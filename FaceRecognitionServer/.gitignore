@@ -1,0 +1,19 @@
+#python cache
+__pycache__/
+*.pyc
+*.pyo
+
+#virrtual env
+adaface_env/
+.env/
+venv/
+
+#trained data
+trained_output/
+
+#dataset
+FaceRecUtils/dataset/*
+!FaceRecUtils/dataset/README.md
+
+#temp by server
+temp/
